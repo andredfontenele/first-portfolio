@@ -5,7 +5,6 @@ import About from './components/about/About'
 import Technologies from './components/technologies/Technologies'
 import Portfolio from './components/portfolio/Portfolio'
 import Contact from './components/contact/Contact'
-import Rodape from './components/rodape/Rodape'
 import Footer from './components/footer/Footer'
 
 const App = () => {
@@ -17,7 +16,6 @@ const App = () => {
       <Technologies />
       <Portfolio />
       <Contact />
-      <Rodape />
       <Footer />
     </div>
   )
