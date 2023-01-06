@@ -8,11 +8,11 @@ const Nav = () => {
         <nav className="nav-container">
           <a href="#" className="nav-logo">André Fontenele</a>
           <ul className='nav-list'>
-            <li><a href='/'>Início</a></li>
-            <li><a href='/'>Sobre</a></li>
-            <li><a href='/'>Tecnologias</a></li>
-            <li><a href='/'>Portfólio</a></li>
-            <li><a href='/'>Contato</a></li>
+            <li><a href='/'><span className="nav-list-option">Início</span></a></li>
+            <li><a href='/'><span className="nav-list-option">Sobre</span></a></li>
+            <li><a href='/'><span className="nav-list-option">Tecnologias</span></a></li>
+            <li><a href='/'><span className="nav-list-option">Portfólio</span></a></li>
+            <li><a href='/'><span className="nav-list-option">Contato</span></a></li>
           </ul>
         </nav>
       </header>

@@ -3,7 +3,13 @@ import './footer.css'
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <div>
+      <footer>
+      <p>Feito com React</p>
+      <p>André Luiz Duarte Fontenele ©2023</p>
+      </footer>
+      
+    </div>
   )
 }
 
