@@ -2,22 +2,34 @@ import React from 'react'
 import './header.css'
 import { GoMarkGithub } from 'react-icons/go'
 import { FaLinkedin } from "react-icons/fa";
+import AndreFontenele from "../../assets/andrefontenele.jpg" 
 
 const Header = () => {
   return (
     <div>
+
       <div className="header-container">
-        <div className="social">
+
+        <div className="header-social">
           <a href="https://www.linkedin.com/in/andreluizfontenele/" target="blank" className="social-linkedin"> <GoMarkGithub /> </a>
           <a href="https://github.com/andredfontenele" target="blank" className="social-github"> <FaLinkedin /> </a>
         </div>
+
         <div className="header-text">
-Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad id expedita reprehenderit possimus saepe, dolores in beatae dolorum inventore! Laboriosam at eaque dolores in quia distinctio libero amet necessitatibus est?
+          <h2>Bem-vindo!</h2>
+          <h1>Meu nome é André Fontenele</h1>
+          <h2><span className="header-subtitle">Desenvolvedor Front-End</span></h2>
+          <div className="contact-button">
+            Fale comigo
+          </div>
+
         </div>
         <div className="header-img">
-Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore autem est ex sunt eius dolore neque. Obcaecati officiis culpa et animi voluptatem, deleniti ad consectetur reiciendis harum enim, laboriosam odit.
+          <img src={AndreFontenele}></img>
         </div>
+  
       </div>
+
     </div>
   )
 }
