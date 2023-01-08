@@ -16,7 +16,7 @@ const Header = () => {
         </div>
 
         <div className="header-text">
-          <h2>Bem-vindo!</h2>
+          <h2>Bem-vindo(a)!</h2>
           <h1>Meu nome é André Fontenele</h1>
           <h2><span className="header-subtitle">Desenvolvedor Front-End</span></h2>
           <div className="contact-button">
