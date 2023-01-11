@@ -3,10 +3,6 @@ a {
   transition: 0.3s;
 }
 
-a:hover{
-  opacity: 0.7;
-}
-
 .nav-container{
   position: sticky;
 }
@@ -14,6 +10,10 @@ a:hover{
 .nav-logo{
   font-size: 24px;
   color: #fff;
+}
+
+.nav-logo:hover{
+  opacity: 0.7;
 }
 
 nav{
@@ -31,6 +31,10 @@ nav{
 
 .nav-list-option{
   color: #fff;
+}
+
+.nav-list-option:hover{
+  opacity: 0.7;
 }
 
 .nav-list li{

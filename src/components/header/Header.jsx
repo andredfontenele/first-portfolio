@@ -11,8 +11,8 @@ const Header = () => {
       <div className="header-container">
 
         <div className="header-social">
-          <a href="https://www.linkedin.com/in/andreluizfontenele/" target="blank" className="social-linkedin"> <GoMarkGithub /> </a>
-          <a href="https://github.com/andredfontenele" target="blank" className="social-github"> <FaLinkedin /> </a>
+          <a href="https://www.linkedin.com/in/andreluizfontenele/" target="blank" className="social-linkedin" rel="noreferrer"> <GoMarkGithub /> </a>
+          <a href="https://github.com/andredfontenele" target="blank" className="social-github" rel="noreferrer"> <FaLinkedin /> </a>
         </div>
 
         <div className="header-text">
@@ -20,7 +20,7 @@ const Header = () => {
           <h1>Meu nome é André Fontenele</h1>
           <h2><span className="header-subtitle">Desenvolvedor Front-End</span></h2>
           <div className="contact-button">
-            Fale comigo
+            Fale comigo 
           </div>
 
         </div>
