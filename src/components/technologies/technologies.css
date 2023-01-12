@@ -1,0 +1,47 @@
+.title-container{
+  margin-top: 10%;
+  justify-content: center;
+  border-bottom: 2px solid #fff;
+  text-align: center;
+  font-size: 35px;
+}
+
+.technologies-container{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 3%;
+  border-radius: 15px;
+}
+
+.front-container{
+  width: 26%;
+  font-size: 2vh;
+}
+
+.front-container h1{
+  text-align: center;
+  border: 1px solid #fff;
+  background-color: #4E4E66;
+}
+
+.front-technologies{
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 3vh; 
+  background-color: #4E4E66;
+}
+
+.technology h2, small{
+  background-color: #4E4E66;
+  border-radius: 15px;
+}
+.technology{
+  background-color: #4E4E66;
+}
+
+.front-technologies,
+.front-container h1,
+.technology{
+  border-radius: 15px;
+}
