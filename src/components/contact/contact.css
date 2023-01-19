@@ -79,8 +79,8 @@
 .form-group textarea:hover,
 .form-group textarea:focus{
     outline: none;
-    border-color: #4dc8ff;
-    box-shadow: 0 0 0 3px #4dc8ff
+    border-color: #fff;
+    box-shadow: 0 0 0 3px #fff;
 }
 
 .grid-container input,

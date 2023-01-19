@@ -4,6 +4,8 @@ import './technologies.css'
 const Technologies = () => {
   return (
     <div>
+      
+    <section id="technologies">
 
     <div className="title-container">
       <h1> Tecnologias </h1>
@@ -72,7 +74,8 @@ const Technologies = () => {
             </div>
           </div>
         </div>
-    </div> 
+    </div>
+    </section>
     </div>
   )
 }

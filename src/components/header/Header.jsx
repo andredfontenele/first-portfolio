@@ -7,21 +7,24 @@ import AndreFontenele from "../../assets/andrefontenele.jpg"
 const Header = () => {
   return (
     <div>
-
+      
+      <section id="header">
       <div className="header-container">
 
         <div className="header-social">
-          <a href="https://www.linkedin.com/in/andreluizfontenele/" target="blank" className="social-linkedin" rel="noreferrer"> <GoMarkGithub /> </a>
-          <a href="https://github.com/andredfontenele" target="blank" className="social-github" rel="noreferrer"> <FaLinkedin /> </a>
+          <a href="https://www.linkedin.com/in/andreluizfontenele/" target="blank" className="social-linkedin" rel="noreferrer">  <FaLinkedin /> </a>
+          <a href="https://github.com/andredfontenele" target="blank" className="social-github" rel="noreferrer"><GoMarkGithub /> </a>
         </div>
 
         <div className="header-text">
           <h2>Bem-vindo(a)!</h2>
           <h1>Meu nome é André Fontenele</h1>
           <h2><span className="header-subtitle">Desenvolvedor Front-End</span></h2>
-          <div className="contact-button">
-            Fale comigo 
+          
+          <a href="#contact"><div className="contact-button">
+            Fale comigo
           </div>
+          </a>
 
         </div>
         <div className="header-img">
@@ -29,7 +32,7 @@ const Header = () => {
         </div>
   
       </div>
-
+      </section>
     </div>
   )
 }

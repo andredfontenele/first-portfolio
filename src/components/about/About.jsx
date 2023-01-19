@@ -8,6 +8,7 @@ const About = () => {
   return (
     <div>
 
+      <section id="about">
       <div className="about-title">
         <h1>Sobre mim</h1>
       </div>
@@ -38,7 +39,8 @@ const About = () => {
       
       </div>
 
-      
+      </section>
+
      </div>
   )
 }

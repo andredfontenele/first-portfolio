@@ -7,6 +7,9 @@ import { AiOutlineMail } from 'react-icons/ai'
 const Contact = () => {
   return (
     <div>
+
+    <section id="contact">
+
     <div className="title-container">
      <h1>Contato <TiMessages /> </h1>
     </div>
@@ -56,6 +59,9 @@ const Contact = () => {
 
     </div>
     </div>
+
+    </section>
+
     </div>
   )
 }

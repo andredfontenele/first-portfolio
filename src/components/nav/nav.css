@@ -4,7 +4,10 @@ a {
 }
 
 .nav-container{
-  position: sticky;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  left: 0px;
 }
 
 .nav-logo{
@@ -21,7 +24,7 @@ nav{
   justify-content: space-around;
   align-items: center;
   background: #23232e;
-  height: 8vh
+  height: 6vh;
 }
 
 .nav-list{
@@ -46,6 +49,7 @@ nav{
   width: 32px;
   height: 2px;
 }
+
 
 @media (max-width: 999px){
   body{

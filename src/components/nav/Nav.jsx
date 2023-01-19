@@ -1,21 +1,23 @@
 import React from 'react'
 import './nav.css'
+import About from '../about/About'
 
 const Nav = () => {
   return (
     <div>
-      <header className="header" id="header">
+      <section id="home">
+
         <nav className="nav-container">
-          <a href="#" className="nav-logo">André Fontenele</a>
+          <a href="#home" className="nav-logo">André Fontenele</a>
           <ul className='nav-list'>
-            <li><a href='/'><span className="nav-list-option">Início</span></a></li>
-            <li><a href='/'><span className="nav-list-option">Sobre</span></a></li>
-            <li><a href='/'><span className="nav-list-option">Tecnologias</span></a></li>
-            <li><a href='/'><span className="nav-list-option">Portfólio</span></a></li>
-            <li><a href='/'><span className="nav-list-option">Contato</span></a></li>
+            <li><a href="#home"><span className="nav-list-option">Início</span></a></li>
+            <li><a href="#about"><span className="nav-list-option">Sobre</span></a></li>
+            <li><a href="#technologies"><span className="nav-list-option">Tecnologias</span></a></li>
+            <li><a href="#portfolio"><span className="nav-list-option">Portfólio</span></a></li>
+            <li><a href="#contact"><span className="nav-list-option">Contato</span></a></li>
           </ul>
         </nav>
-      </header>
+      </section>
       {/* <ul>
         <li>Início</li>
         <li>Sobre</li>

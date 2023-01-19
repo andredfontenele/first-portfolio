@@ -12,6 +12,9 @@ const Portfolio = () => {
 
   return (
     <div>
+
+      <section id="portfolio">
+
       <div className="title-container">
         <h1>Projetos</h1>
       </div>
@@ -87,6 +90,9 @@ uma agência fictícia, atuando como uma forma de divulgação para futuros inte
           </div>
           </div>
           </div>
+
+          </section>
+
       </div>
   )
 }
