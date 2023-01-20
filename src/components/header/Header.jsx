@@ -17,7 +17,8 @@ const Header = () => {
         </div>
 
         <div className="header-text">
-          <h2>Bem-vindo(a)!</h2>
+          <h1><span id="title">Bem-vindo(a)!</span></h1>
+          <br />
           <h1>Meu nome é André Fontenele</h1>
           <h2><span className="header-subtitle">Desenvolvedor Front-End</span></h2>
           
