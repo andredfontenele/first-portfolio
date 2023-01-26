@@ -1,10 +1,10 @@
-
 .header-container{
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
   width: 60%;
+  height: 60vh;
   margin: auto;
   margin-top: 7%;
   letter-spacing: 1px;

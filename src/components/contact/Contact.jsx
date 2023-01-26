@@ -42,7 +42,7 @@ const Contact = () => {
       </div>
 
       
-      <h1>Deixe uma mensagem.</h1>
+      <h1>Deixe uma mensagem</h1>
       <div className='grid-container'>
       <textarea name="message" placeholder="Digite sua mensagem" id="message"></textarea>
       <input type="hidden" name="_captcha" value="false"></input>

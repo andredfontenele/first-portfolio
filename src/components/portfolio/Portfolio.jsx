@@ -12,87 +12,101 @@ const Portfolio = () => {
 
   return (
     <div>
-
       <section id="portfolio">
 
       <div className="title-container">
         <h1>Projetos</h1>
       </div>
 
-    <div className="flex-container">
-      <div className="card-container">
-          <div className="card">
-            <a href="https://buscador-cep-drab.vercel.app/">
-          <img src={buscadorcep}></img>
-          </a>
-          <div className="card-description">
-          <span className="description-span">
-          Website desenvolvido para a realização de buscas de endereços em território brasileiro, com integração 
-de uma API, utilizando o Axios.
-            </span>
-          </div>
-          </div>
-
-          <div className="card">
-            <a href="https://andredfontenele.github.io/agencia_fake/">
-          <img src={agenciafake}></img>
-          </a>
-          <div className="card-description">
-          <span className="description-span">
-          Projeto desenvolvido com HTML e CSS puros. Teve como objetivo central a criação de um website de 
-uma agência fictícia, atuando como uma forma de divulgação para futuros interessados no serviço.
-            </span>
-          </div>
-          </div>
-
-          <div className="card">
-            <a href="https://andredfontenele.github.io/landingpage/">
-          <img src={landingpage}></img>
-          </a>
-          <div className="card-description">
-          <span className="description-span">
-          Página de captura, feita totalmente em HTML5 e CSS3.
-            </span>
-          </div>
-          </div>
-
-          <div className="card">
-            <a href="https://andredfontenele.github.io/lista-de-tarefas/">
-          <img src={listadetarefas}></img>
-          </a>
-          <div className="card-description">
-          <span className="description-span">
-          Projeto desenvolvido com o intuito de praticar chamadas de funções em JavaScript.
-            </span>
-          </div>
-          </div>
+        
+        <div className="container">
           
-          <div className="card">
-            <a href="https://andredfontenele.github.io/churrascometro/">
-          <img src={churrascometro}></img>
-          </a>
-          <div className="card-description">
-          <span className="description-span">
-          Projeto desenvolvido com o intuito de praticar chamadas de funções no JavaScript.
-            </span>
+        <div className="card">
+          <div className="card-img">
+          <img src={buscadorcep}></img>  
           </div>
-          </div>
+          <div className="content">
+            <h2>Buscador de CEP</h2>
+            <h3>(HTML, CSS, React, Axios )</h3>
+            <p> Website desenvolvido para a realização de buscas de endereços em território brasileiro, com integração de uma API, utilizando o Axios.</p>
+            <br />
+            <a href="https://buscador-cep-drab.vercel.app/" target="blank" rel="noreferrer"><span id="content-link">VER PROJETO</span></a>
+            </div>
+        </div>
 
-          <div className="card">
-            <a href="https://andredfontenele.github.io/Qual-a-refeicao/">
-          <img src={refeicao}></img>
-          </a>
-          <div className="card-description">
-          <span className="description-span">
-          Projeto desenvolvido para a realização do primeiro exercício do curso de JavaScript do Curso em Vídeo, utilizando o básico de HTML, CSS e JavaScript.
-            </span>
-          </div>
-          </div>
-          </div>
-          </div>
 
-          </section>
+        <div className="card">
+          <div className="card-img">
+          <img src={agenciafake}></img>  
+          </div>
+          <div className="content">
+            <h2>Agência Fake</h2>
+            <h3>(HTML, CSS)</h3>
+            <p> Criação de um website de uma agência fictícia, atuando como uma forma de divulgação para futuros interessados no serviço.</p>
+            <br />
+            <a href="https://andredfontenele.github.io/agencia_fake/" target="blank" rel="noreferrer"><span id="content-link">VER PROJETO</span></a>
+            </div>
+        </div>
 
+
+        <div className="card">
+          <div className="card-img">
+          <img src={landingpage}></img>  
+          </div>
+          <div className="content">
+            <h2>Landing Page</h2>
+            <h3>(HTML, CSS)</h3>
+            <p>Página de captura, feita totalmente em HTML5 e CSS3.</p>
+            <br />
+            <a href="https://andredfontenele.github.io/landingpage/" target="blank" rel="noreferrer"><span id="content-link">VER PROJETO</span></a>
+            </div>
+        </div>
+
+
+        <div className="card">
+          <div className="card-img">
+          <img src={churrascometro}></img>  
+          </div>
+          <div className="content">
+            <h2>Churrascômetro</h2>
+            <h3>(HTML, CSS, JavaScript)</h3>
+            <p>Projeto desenvolvido com o intuito de praticar chamadas de funções no JavaScript.</p>
+            <br />
+            <a href="https://andredfontenele.github.io/churrascometro/" target="blank" rel="noreferrer"><span id="content-link">VER PROJETO</span></a>
+            </div>
+        </div>
+
+
+        <div className="card">
+          <div className="card-img">
+          <img src={listadetarefas}></img>  
+          </div>
+          <div className="content">
+            <h2>Lista de Tarefas</h2>
+            <h3>(HTML, CSS, JavaScript )</h3>
+            <p>Projeto desenvolvido com o intuito de praticar chamadas de funções em JavaScript.</p>
+            <br />
+            <a href="https://andredfontenele.github.io/lista-de-tarefas/" target="blank" rel="noreferrer"><span id="content-link">VER PROJETO</span></a>
+            </div>
+        </div>
+
+
+        <div className="card">
+          <div className="card-img">
+          <img src={refeicao}></img>  
+          </div>
+          <div className="content">
+            <h2>Qual a Refeição?</h2>
+            <h3>(HTML, CSS, JavaScript)</h3>
+            <p>
+Projeto do curso de JavaScript do Curso em Vídeo, utilizando o básico de HTML, CSS e JavaScript.</p>
+            <br />
+            <a href="https://andredfontenele.github.io/Qual-a-refeicao/" target="blank" rel="noreferrer"><span id="content-link">VER PROJETO</span></a>
+            </div>
+        </div>
+        
+        </div>
+      </section>
       </div>
   )
 }
