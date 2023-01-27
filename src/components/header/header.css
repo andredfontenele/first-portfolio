@@ -22,12 +22,17 @@
   text-align: justify;
 }
 
+.header-text a{
+  width: 150px;
+}
+
 #title{
   font-size: 35px;
 }
 
 .header-subtitle{
   opacity: 0.7;
+  font-size: 20px;
 }
 
 .contact-button{

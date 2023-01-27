@@ -20,7 +20,7 @@ const Header = () => {
           <h1><span id="title">Bem-vindo(a)!</span></h1>
           <br />
           <h1>Meu nome é André Fontenele</h1>
-          <h2><span className="header-subtitle">Desenvolvedor Front-End</span></h2>
+          <h2><span className="header-subtitle">Desenvolvedor Front-End Jr.</span></h2>
           
           <a href="#contact"><div className="contact-button">
             Fale comigo

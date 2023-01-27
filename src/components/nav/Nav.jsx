@@ -13,6 +13,7 @@ const Nav = () => {
             <li><a href="#home"><span className="nav-list-option">Início</span></a></li>
             <li><a href="#about"><span className="nav-list-option">Sobre</span></a></li>
             <li><a href="#technologies"><span className="nav-list-option">Tecnologias</span></a></li>
+            <li><a href="#experience"><span className="nav-list-option">Educação e Experiência</span></a></li>
             <li><a href="#portfolio"><span className="nav-list-option">Projetos</span></a></li>
             <li><a href="#contact"><span className="nav-list-option">Contato</span></a></li>
           </ul>
